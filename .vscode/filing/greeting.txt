@@ -1,0 +1,2 @@
+Hello, NED UNIVERSITY!
+File handling in C is easy!
