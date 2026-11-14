@@ -5,28 +5,29 @@ struct idk{
      int coolness;
      int evil;
      char grade;
-};
-struct idk reeba;
+}
+reeba,boba,manal,zim,kashaf; //we can initialize it by like ts too
+//struct idk reeba;
 reeba.evil = 10;
 reeba.coolness = 60;
 reeba.humour = 90;
 reeba.grade = 'A';
-struct idk boba;
+//struct idk boba;
 boba.coolness = 65;
 boba.evil = 7;
 boba.humour = 40;
 boba.grade = 'A';
-struct idk manal;
+//struct idk manal;
 manal.humour = 35;
 manal.coolness = 90;
 manal.evil = 2;
 manal.grade = 'A';
-struct idk zim;
+//struct idk zim;
 zim.humour = 2;
 zim.evil = 100;
 zim.coolness = 20;
 zim.grade = 'F';
-struct idk kashaf;
+//struct idk kashaf;
 kashaf.grade;
 printf("Enter grade of kashaf: "); //taking input
 scanf("%c",&kashaf.grade);
