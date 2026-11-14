@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> //struct book with attributes name , pages and price
 #include <string.h>
 int main(){
 struct book{
