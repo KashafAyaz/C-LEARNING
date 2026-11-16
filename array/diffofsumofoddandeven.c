@@ -4,17 +4,18 @@ int main(){
     int sumOdd=0;
     int difference;
     int arr[5];
-    for(int i=0;i<=4;i++){
+for(int i=0;i<=4;i++){
     printf("the element %d is ",i+1);
     scanf("%d",&arr[i]);
     }
-    for(int i=0;i<=4;i++){
-    if(i%2==0){
+for(int i=0;i<=4;i++){
+if(i%2==0){
         sumEven=sumEven+arr[i];}
-    else{
+else{
     sumOdd=sumOdd+arr[i];}
     }
     difference=sumEven-sumOdd;
     printf("%d",difference);
-    return 0;
+return 0;
 }
+//the difference of the sum of even and odd values for that we need to seperate the even and odd values first from the array
