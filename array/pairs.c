@@ -1,3 +1,4 @@
+//two elements of array make up one element by adding
 #include <stdio.h>
 int main(){
     int count=0;
