@@ -1,21 +1,24 @@
-#include <stdio.h>
+//if 3 numbers add up to the n value it will increement the count
+#include<stdio.h>
 int main(){
-    int count=0;
-    int n;
-    printf("enter n:");
-    scanf("%d",&n);
-    int arr[10];
-    for(int i=0;i<=9;i++){
-    printf("the element %d is ",i+1);
-    scanf("%d",&arr[i]);}
-for(int i=0;i<=9;i++){
- for(int j=i+1;j<=9;j++){
-    for(int k=j+1;k<=9;k++)
+int n;
+printf("enter n:");
+scanf("%d",&n);
+int count=0;
+int arr[n];
+for(int i=0;i<9;i++){
+printf("enter element %d of array:",i+1);
+scanf("%d",&arr[i]);
+}
+for(int i=0;i<9;i++){
+   for(int j=i+1;j<9;j++){
+      for(int k=j+1;j<9;j++){
 if(arr[i]+arr[j]+arr[k]==n){
-    count++;
+count++;
 }
 }
 }
-printf("triplets:%d",count);
-    return 0;
+}
+printf("the triplets are %d",count);
+return 0;
 }
