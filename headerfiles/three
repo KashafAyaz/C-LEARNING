@@ -1,0 +1,16 @@
+# 1 "three.c"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "three.c"
+# 1 "maths.h" 1
+# 2 "three.c" 2
+int main(){
+
+add(2,3);
+multiply(6,7);
+diff(4,3);
+evenodd(6);
+sqr(2);
+cube(3);
+return 0;
+}
