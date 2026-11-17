@@ -1,3 +1,4 @@
+//taking input
 #include <stdio.h>
 int main(){
 int r;
