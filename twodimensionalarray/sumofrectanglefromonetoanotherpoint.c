@@ -1,3 +1,4 @@
+//sum of rectangle from one point to another point
 #include<stdio.h>
 int main(){
 int arr[3][3]={{5,6,7},{8,9,11},{12,14,15}};
